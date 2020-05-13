@@ -1,3 +1,7 @@
+import os
+clear = lambda: os.system('cls')
+clear()
+
 shopping_list = {
     "Piekarnia": ["chleb", "bułki", "pączek", "chałka"],
     "Warzywniak": ["marchew", "seler", "rukola", "pietruszka"]
